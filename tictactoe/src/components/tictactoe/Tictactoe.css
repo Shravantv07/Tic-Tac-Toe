@@ -87,3 +87,27 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+@media (max-width: 768px) {
+  .title,
+  .won,
+  .draw,
+  .error {
+    font-size: 32px;
+  }
+
+  .boxes {
+    width: 100px;
+    height: 100px;
+  }
+
+  .board {
+    width: 312px;
+    height: 312px;
+  }
+
+  .reset {
+    width: 180px;
+    height: 70px;
+    font-size: 20px;
+  }
+}
